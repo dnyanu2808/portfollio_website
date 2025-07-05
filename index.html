@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfollio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a1f65fec1b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo-transparent.png" class="logo" width="200px" height="200px">
+
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfollio">Portfollio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'am <span>Dnayneshwari</span> <br> Sanap from Maharashtra</h1>
+            </div>
+        </div>
+    </div>
+    <!----------About----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dnyanu5.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About me</h1>
+                    <P>Hello! I'm Dnyaneshwari Sanap, a passionate and dedicated 3rd-year student pursuing Computer Engineering at Prof. Ram Meghe College of Engineering. I have a strong interest in technology, problem-solving, and continuous learning. Currently,I
+                        am gaining practical experience by volunteering at Montreach Solutions Pvt. Ltd., where I’m learning real-world skills and contributing to meaningful projects.<br><br>I’m enthusiastic about exploring new technologies, improving
+                        my coding abilities, and building innovative solutions. My goal is to grow as a developer and make a positive impact through technology.</P>
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interface</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025 - current</span><br>Voluntering in NXC badge</li>
+                            <li><span>2023</span><br>Work as a intern in Mountreach Solutions pvt.ltd</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024-2027</span><br>pursuing B.E Computer Engineering at Prof. Ram Meghe College of Engineering and Management</li>
+                            <li><span>2021-2023</span><br>Diploma in CSE at Dr.Panjabrao Deshmukh polytechnic,Amravti</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!---------------------SERVICES------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Create professional website designs. Responsive, fully customizable with easy Drag-n-Drop Nicepage editor. Adjust colors, fonts, header and footer, layout and other design elements, as well as content and images.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Create professional website designs. Responsive, fully customizable with easy Drag-n-Drop Nicepage editor. Adjust colors, fonts, header and footer, layout and other design elements, as well as content and images.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Create professional website designs. Responsive, fully customizable with easy Drag-n-Drop Nicepage editor. Adjust colors, fonts, header and footer, layout and other design elements, as well as content and images.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------PORTFOLLIO------------------------------------>
+    <div id="portfollio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/tour.jpeg">
+                    <div class="layer">
+                        <h3>Tour Organization App</h3>
+                        <p>This is the App that organise the tour packages for tuorist and also orgnaise cab,lounges for customer</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/tour1.jpeg">
+                    <div class="layer">
+                        <h3>Tour Organization App</h3>
+                        <p>In this aap we manages all packeges, places there ambiance also we manages the inaternational tour and currency </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/admin.jpeg">
+                    <div class="layer">
+                        <h3>Admin App</h3>
+                        <p>The admin app manages tour Organization App</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!----------------------------------------contact---------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sanapdnyaneshwari03@gmail.com</p>
+                    <div class="social icons">
+                        <a href="https://x.com/dnyanu2808"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/dnyanu_2808/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/dnyaneshwarisanap"><i class="fa-brands fa-linkedin"></i></i></a>
+                    </div>
+                    <a href="images/dnyanu.cv.pdf" download class="btn btn2">Download CV </a>
+                </div>
+                <div class="contact-left">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Dnyaneshwari.made with fully love<i class="fa-solid fa-heart"></i> </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+
+</html>
